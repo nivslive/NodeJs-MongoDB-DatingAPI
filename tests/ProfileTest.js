@@ -1,5 +1,5 @@
 import request from 'supertest';
-import app from './app'; // Certifique-se de ajustar o caminho conforme necessário
+import app from './app'; 
 
 describe('Testes para a aplicação Express', () => {
   it('Deve retornar perfis existentes ao chamar GET /perfis', async () => {
